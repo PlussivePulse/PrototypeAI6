@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-12.0.2">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="plugins/freeTTS/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/cmudict04.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/cmulex.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/en_us.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/freetts.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/jsapi.jar"/>
+	<classpathentry kind="lib" path="plugins/freeTTS/mbrola.jar"/>
+	<classpathentry kind="lib" path="plugins/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="plugins/jProcesses-1.6.4.jar"/>
+	<classpathentry kind="lib" path="plugins/json-20190722.jar"/>
+	<classpathentry kind="lib" path="plugins/org.json-chargebee-1.0.jar"/>
+	<classpathentry kind="lib" path="plugins/swt.jar"/>
+	<classpathentry kind="lib" path="plugins/WMI4Java-1.6.1.jar"/>
+	<classpathentry kind="lib" path="plugins/slf4j-api-1.7.29.jar"/>
+	<classpathentry kind="lib" path="plugins/logback-classic-1.0.13.jar"/>
+	<classpathentry kind="lib" path="plugins/lombok.jar"/>
+	<classpathentry kind="lib" path="plugins/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="plugins/sphinx4-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="plugins/sphinx4-data-1.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
