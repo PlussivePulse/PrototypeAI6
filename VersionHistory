@@ -1,0 +1,76 @@
+Prototype 1.5.0_B1 (BETA)
+ + Added pre-support for Speech-Recognization by Sphinx4-NonMaven.
+ + Improve code and performance in loading external data.
+ + Fixed bug that cause NullException in loading external data.
+ + Note : Last Update of 2019. (12/26/2019)
+
+Prototype 1.5.X (BETA)
+ + Better message recieves displaying.
+
+Prototype 1.4.1 (Developer Release)
+ + Update globalID [x.x] to support [x.xxx-calculation support] format.
+ + Added alarmClock module.
+ + Added clock application.
+ + Added alarm panel in clock application.
+ + Added support for writeText to insert.
+ + Updated globalID internal return style.
+ + Updated support for globalID changes in core.
+ + [1.4.1-B1] Fix issues where globalID didn't load and crash displayer.
+ + Updated text when first load.
+ + Update startUp algorithm to be more efficient.
+ + Improved speed in loading StartUp from developer testing.
+
+Prototype 1.4.0 (Beta,Release)
+ + Added Ability to locate file and activate execution. - 1.3 Support
+ + Added Core Element Config.
+ + Configured previous code to support current code.
+
+Prototype 1.3.X - 1.3.1-O5
+ + Added ability to read .txt file and update config.
+ + Added ability to re-create default config.
+ + Added ability to create folder and files.
+ + Added ReadText,DirectoryCreator,LocalDataLoader class.
+ + Huge code update and test.
+
+========================================================================================================
+
+Prototype 1.2.1
+ + Added memory usage indicator in Debug (BETA)
+ + Added auto restart when memory usage is more than 95% (BETA)
+ + Added 2 bug handler to WSDotCamLoader Module that crashes the Thread. [KRBug-0001]
+ + Attempted to fix possible memory leak in Weather Module.
+ + Added plugin lombok project.
+ + Added stabilizer panel 1.0 to setting.
+   + Added option to custom auto restart.
+ - Fixed and Changed Setting tab panel frame size to full screen.
+
+========================================================================================================
+
+Prototype 1.2 Release
+ + C.O.M. Server Panel updated to 1.1 (Imporved code).
+  + Master Overwrite allow remote command option.
+ + Updated client code, improved text format.
+ - Fixed possible error in WeatherModule Thread handler - Icon updater (nullException).
+ - Fixed problem where closing server module will close main program too.
+
+ + Added option to custom country in WeatherModule. (BETA)
+ + Added base module script to understand time period.
+
+ - server Module Update :
+  - Added serverModule ipPort display area.
+  - Improved server code.
+
+ - App Update :
+  - Changed property of Calculator display to uneditable. (Fix)
+
+Known Bug :
+ - 1.Update time in WSDot Camera switching sometime crash CameraLoad-Thread. [KRBug-0001]
+ - 2.Server command cause crash in command module after used. [KPBug-0001]
+
+========================================================================================================
+
+Prototype 1.1
+ + Added weatherMap Module.
+ + Added weatherMapControl.
+
+Prototype 1.0 Released!
